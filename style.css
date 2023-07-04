@@ -129,6 +129,7 @@ button:hover {
   font-style: italic;
   letter-spacing: 0px;
   text-transform:lowercase;
+  display: block;
 }
 
 .error__state_title {
@@ -193,6 +194,10 @@ button:hover {
   .error__state_text {
       font-size: 12px;
   }
+}
+
+.hidden-span {
+  display: none;
 }
 
 .attribution { 
