@@ -13,8 +13,7 @@ export const ERROR_MESSAGE = {
 };
 
 export const INVALID_INPUT = {
-    DAY: 32,
-    MONTH: 13, 
+    DAY: 31,
+    MONTH: 12, 
     VALUE: 0,
 };
-
