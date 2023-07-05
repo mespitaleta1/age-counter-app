@@ -8,11 +8,6 @@ function isInputEmpty (inputValue) {
 };
 
 function validateDay() {
-  /*
-   * 1. Esta fn tiene acceso directo al valor del imput -- this.value === dayValue
-   * 2. Esta fn no deberia mutar una variable externa, sino retornar un valor 
-   * 3. Esta fn debe retornar un valor util
-   */
 
   let dayValue = Number(this.value);
   const {isEmpty, errorMessage} = isInputEmpty(this.value);
